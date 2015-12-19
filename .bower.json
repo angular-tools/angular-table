@@ -1,0 +1,31 @@
+{
+  "name": "angular-datatable-links",
+  "authors": [
+    "minutephp <dev@minutephp.com>"
+  ],
+  "description": "AngularJS common extensions for datatables",
+  "main": "src/js/angular-datatable-links.js",
+  "keywords": [
+    "angularjs",
+    "notice"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.minutephp.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "1.5.8",
+  "_release": "1.5.8",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.5.8",
+    "commit": "f6fa6243d5a1d514dacb654bd206cd1858bb0293"
+  },
+  "_source": "git://github.com/angular-tools/angular-datatable-links.git",
+  "_target": "*",
+  "_originalSource": "angular-tools/angular-datatable-links"
+}
