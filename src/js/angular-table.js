@@ -61,6 +61,8 @@
                             if (totalPages > curPage + Math.round(numPages / 2) + 1) {
                                 $scope.pages.push({begin: ((totalPages - 1) * $scope.options.size), page: 'Last'});
                             }
+
+                            $scope.angularTable.size = $scope.options.size;
                         } else {
                             $scope.angularTable.begin = $scope.angularTable.size = null;
                         }
