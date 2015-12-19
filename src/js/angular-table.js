@@ -23,7 +23,7 @@
                         var e = angular.element(this);
                         var sortBy = e.data('sort');
                         if (sortBy) {
-                            e.html('<a href="" ng-click="sort(\'' + sortBy + '\')">' + e.text() + '</a> ' +
+                            e.html('<a href="" ng-click="sort(\'' + sortBy + '\')">' + e.html() + '</a> ' +
                                 '<i class="fa fa-sort fa-xs text-muted" ng-show="angularTable.field !== \'' + sortBy + '\'"></i>' +
                                 '<span ng-show="angularTable.field == \'' + sortBy + '\'">' +
                                 '<i class="fa fa-sort-asc text-muted" ng-show="reversed[\'' + sortBy + '\']"></i>' +
