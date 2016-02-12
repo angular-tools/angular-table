@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('angularTable', [])
+    angular.module('angularTable', ['angularTimeAgo', 'angularStringFilters'])
         .directive('angularTable', ['$timeout', '$compile', function ($timeout, $compile) {
             return {
                 restrict: 'A',
